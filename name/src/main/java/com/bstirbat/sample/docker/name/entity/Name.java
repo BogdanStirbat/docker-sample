@@ -12,7 +12,7 @@ public class Name {
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
 
-    private String message;
+    private String name;
 
     public Name() {
 
@@ -26,11 +26,11 @@ public class Name {
         this.id = id;
     }
 
-    public String getMessage() {
-        return message;
+    public String getName() {
+        return name;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setName(String name) {
+        this.name = name;
     }
 }
